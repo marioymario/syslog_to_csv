@@ -13,7 +13,7 @@ Usage:
 in the location where the trans_log_csv.py is, run in terminal.
 
 ```
-cat /var/log/syslog | ./trans_log_csv.py
+./trans_log_csv.py
 ```
 
 It will return  information about the column names, data type, and a count, number of unique values and its frequency, as well an output file with extention csv.
